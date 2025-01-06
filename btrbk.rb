@@ -7,6 +7,7 @@ class Btrbk < Formula
 
   bottle do
     rebuild 1
+    root_url "https://ghcr.io/v2/mfschumann/homebrew-tap"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "3d96562514b873c1413b085dc73d0c5b3897ad529dd9381138e32e00943a5636"
   end
 
