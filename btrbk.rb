@@ -13,7 +13,7 @@ class Btrbk < Formula
 
   depends_on "asciidoctor" => :build
   depends_on "btrfs-progs"
-  depends_on "mbuffer" => :optional
+  depends_on "mbuffer" => :recommended
   depends_on "openssh" => :optional
   uses_from_macos "perl"
 
