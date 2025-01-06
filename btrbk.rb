@@ -5,6 +5,11 @@ class Btrbk < Formula
   sha256 "02e2ac647c918463202cbe607bb95557a4f7fd237069124333c54da5b2bbb76b"
   license "GPL-3.0-only"
 
+  bottle do
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3d96562514b873c1413b085dc73d0c5b3897ad529dd9381138e32e00943a5636"
+  end
+
   depends_on "asciidoctor" => :build
   depends_on "btrfs-progs"
   uses_from_macos "perl"
